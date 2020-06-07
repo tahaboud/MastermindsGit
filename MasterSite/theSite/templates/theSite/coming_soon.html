@@ -1,0 +1,16 @@
+{% extends "theSite/base.html" %}
+{% load static %}
+{% block link_block %}
+  <link rel="stylesheet" href="{% static "css/theSite/coming_soon.css" %}">
+{% endblock %}
+{% block body_block %}
+<div class="card text-center">
+  <div class="col-12 mb-5">
+    <img src="{% static "images/Masterminds.png" %}" alt="">
+  </div>
+  <h1>COMING SOON</h1>
+</div>
+{% endblock %}
+{% block script_block %}
+  <script src="{% static "js/theSite/coming_soon.js" %}" charset="utf-8"></script>
+{% endblock %}

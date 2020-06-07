@@ -1,0 +1,18 @@
+.card{
+  background-color: #f0d51a;
+}
+
+.confirm-button{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2d2e2d;
+  background-color: #fff;
+  margin-bottom: 10px!important;
+  border-color: #2d2e2d;
+}
+
+.confirm-button:hover{
+  color: #fff;
+  background-color: #2d2e2d;
+  transition: 600ms;
+}

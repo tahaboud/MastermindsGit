@@ -1,0 +1,10 @@
+{% extends "theSite/base.html" %}
+{% block link_block %}
+  <div class="card text-center">
+    <div class="card-title">
+      <h1>Your password has been succefully reset</h1>
+    </div>
+    <br>
+    <a href="{% url 'accounts:login' %}" class="btn btn-primary">Login</a>
+  </div>
+{% endblock %}

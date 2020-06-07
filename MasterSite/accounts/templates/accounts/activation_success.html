@@ -1,0 +1,13 @@
+{% extends "theSite/base.html" %}
+{% block body_block %}
+<div class="jumbotron text-center">
+  <h1 class="display-3">Activation Succeful!</h1>
+  <p>
+    Thank you for registering.<br>
+    Your account is now active and you can login.
+  </p>
+  <p class="lead">
+    <a class="btn btn-primary btn-sm" href="{% url 'accounts:login' %}" role="button">Login</a>
+  </p>
+</div>
+{% endblock %}

@@ -1,0 +1,5 @@
+.my-image{
+  background-color: #cccccc;
+  object-fit: contain;
+  height:300px!important;
+}

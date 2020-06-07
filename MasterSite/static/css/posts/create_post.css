@@ -1,0 +1,16 @@
+textarea{
+  resize: none;
+}
+
+.card{
+  background-color: #f0d51a;
+}
+
+.custom-file-label{
+  border-color: #2d2e2d;
+  text-decoration-color: #010101 !important;
+}
+
+.form-control{
+  border-color: #2d2e2d;
+}

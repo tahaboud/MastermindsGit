@@ -1,0 +1,22 @@
+.my-button{
+  display: inline-block;
+  margin: 5px;
+  padding: 0px 20px 5px 20px;
+  border: 1px solid #2d2e2d;
+  background-color: #fff;
+  color: #2d2e2d;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.my-button:hover{
+  text-decoration: none;
+  background-color: #2d2e2d;
+  color: #fff;
+  transition: .7s;
+}
+
+.card{
+  background-color: #f0d51a;
+}

@@ -1,0 +1,32 @@
+{% extends "theSite/base.html" %}
+{% load static %}
+{% block link_block %}
+  <link rel="stylesheet" href="{% static 'css/posts/home.css' %}">
+{% endblock %}
+{% block body_block %}
+  <form method="post">
+    {% csrf_token %}
+    <div class="page-header">
+      <div class="row justify-content-center">
+        <h3>Are you sure you want to delete this post ?</h3>
+      </div>
+      <div class="row justify-content-around mb-5">
+        <button type="submit" class="btn btn-danger col-lg-2">Yes, Delete</button>
+        <a href="/" class="btn btn-primary col-lg-2">No, Cancel</a>
+      </div>
+      <div class="card mb-4">
+      {% if object.image %}
+        <img class="card-img-top img-fluid" src="{{ object.image.url }}" alt="Card image cap">
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ object.title }}</h2>
+        <p class="card-text">{{ object.description }}</p>
+      </div>
+      <div class="card-footer text-muted">
+        Posted on {{ object.creation_time.date }} at {{ object.creation_time.time }} by
+        {{ object.creator }}
+      </div>
+    </div>
+    </div>
+  </form>
+{% endblock %}

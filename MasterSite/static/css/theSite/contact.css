@@ -1,0 +1,61 @@
+.form-row{
+  margin: 20px 5px 5px 5px;
+}
+
+.my-form-group{
+  margin: 0px 10px 10px 10px;
+}
+
+.my-button{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2d2e2d;
+  background-color: #fff;
+  margin-bottom: 10px!important;
+  border-color: #2d2e2d;
+}
+
+.my-button:hover{
+  color: #fff;
+  background-color: #2d2e2d;
+  transition: 600ms;
+  border-color: #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea{
+  resize: none;
+}
+
+.card-title{
+  margin: 10px 0px 10px 0px;
+}
+
+.card{
+  background-color: #f0d51a;
+}
+
+#name{
+  border-color: #2d2e2d;
+}
+
+#email{
+  border-color: #2d2e2d;
+}
+
+#phone_number{
+  border-color: #2d2e2d;
+}
+
+#content{
+  border-color: #2d2e2d;
+}
